@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#">PriceOye</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Phones</a></li>
+          <li><a href="#">Laptops</a></li>
+          <li><a href="#">Tablets</a></li>
+          <li><a href="#">Cameras</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search for products..." />
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="back-button">
+      <a href="index.html" class="back-to-home-button">Back to Home</a>
+    </div>
+
+    <div id="main-div"></div>
+    <div class="total-btn">
+      <div><button onclick="check();">Check Total</button></div>
+      <div
+        style="font-size: x-large; margin-left: 10px; margin-top: 10px"
+        id="total"
+      ></div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>
